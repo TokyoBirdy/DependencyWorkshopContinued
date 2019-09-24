@@ -10,9 +10,13 @@ import SwiftUI
 import Components
 
 struct ContentView: View {
+    let image = ("🎶").image(attributes: [.font: UIFont.systemFont(ofSize: 20)], size: CGSize(width: 44, height: 44))
+    
     var body: some View {
-        List(0..<10) { _ in
-            TrackRowCell()
+        Section(header: image.map { Image(uiImage: $0) }) {
+            List(0..<10) {_ in
+                TrackRowCell()
+            }
         }
     }
 }
