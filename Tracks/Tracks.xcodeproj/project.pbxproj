@@ -15,6 +15,8 @@
 		1689093F2338DD50000CCFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1689093D2338DD50000CCFDD /* LaunchScreen.storyboard */; };
 		168909532338DFB8000CCFDD /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168909512338DE99000CCFDD /* Components.framework */; };
 		168909542338DFB8000CCFDD /* Components.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 168909512338DE99000CCFDD /* Components.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		16F5CBE1235E2AF1002BEF98 /* MaoMeiMei.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16F5CBE0235E2AF1002BEF98 /* MaoMeiMei.ttf */; };
+		16F5CBE3235E2B04002BEF98 /* dongrinuanxin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16F5CBE2235E2B03002BEF98 /* dongrinuanxin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1689093E2338DD50000CCFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		168909402338DD50000CCFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1689094C2338DE99000CCFDD /* Components.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Components.xcodeproj; path = ../Components/Components.xcodeproj; sourceTree = "<group>"; };
+		16F5CBE0235E2AF1002BEF98 /* MaoMeiMei.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaoMeiMei.ttf; sourceTree = "<group>"; };
+		16F5CBE2235E2B03002BEF98 /* dongrinuanxin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dongrinuanxin.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 		168909312338DD4D000CCFDD /* Tracks */ = {
 			isa = PBXGroup;
 			children = (
+				16F5CBE2235E2B03002BEF98 /* dongrinuanxin.ttf */,
+				16F5CBE0235E2AF1002BEF98 /* MaoMeiMei.ttf */,
 				168909322338DD4D000CCFDD /* AppDelegate.swift */,
 				168909342338DD4D000CCFDD /* SceneDelegate.swift */,
 				168909362338DD4D000CCFDD /* ContentView.swift */,
@@ -195,8 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F5CBE1235E2AF1002BEF98 /* MaoMeiMei.ttf in Resources */,
 				1689093F2338DD50000CCFDD /* LaunchScreen.storyboard in Resources */,
 				1689093C2338DD50000CCFDD /* Preview Assets.xcassets in Resources */,
+				16F5CBE3235E2B04002BEF98 /* dongrinuanxin.ttf in Resources */,
 				168909392338DD50000CCFDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
